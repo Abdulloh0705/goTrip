@@ -1,3 +1,5 @@
+
+import '../header/header.scss';
 const Header = () => {
   return (
     <>
@@ -35,7 +37,8 @@ const Header = () => {
       </header>
 
     </>
-  )
-}
+  );
+  
+};
 
 export default Header
